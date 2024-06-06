@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_Home"
+            android:title="@string/menu_home" />
+
+        <item
+            android:id="@+id/nav_Organisation"
+            android:title="@string/menu_organisation" />
+
+        <item
+            android:id="@+id/nav_DitsPanel"
+            android:title="@string/menu_dits_panel" />
+
+        <item
+            android:id="@+id/nav_IRMS"
+            android:title="@string/menu_IRMS" />
+
+        <item
+            android:id="@+id/nav_events"
+            android:title="@string/menu_Events" />
+
+        <item
+            android:id="@+id/nav_Seniority"
+            android:title="@string/menu_Seniority" />
+
+        <item
+            android:id="@+id/nav_Circulars"
+            android:title="@string/menu_circulars" />
+
+        <item
+            android:id="@+id/nav_NewsArticle"
+            android:title="@string/menu_news_article" />
+
+        <item
+            android:id="@+id/nav_IRPOBF"
+            android:title="@string/menu_irpobf" />
+
+        <item
+            android:id="@+id/nav_Links"
+            android:title="@string/menu_links" />
+
+    </group>
+</menu>

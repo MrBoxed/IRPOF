@@ -1,0 +1,33 @@
+<resources>
+    <string name="app_name">IRPOF</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+
+<!--    MENU ITEMS STRINGS -->
+    <string name="menu_home">Home</string>
+    <string name="menu_organisation">Organization</string>
+    <string name="menu_dits_panel">DITS/Panel</string>
+
+    <string name="menu_IRMS">IRMS</string>
+    <string name="menu_Events">Events</string>
+    <string name="menu_Seniority">Seniority</string>
+
+    <string name="menu_circulars">Circulars</string>
+    <string name="menu_news_article">News/Article</string>
+    <string name="menu_irpobf">IRPOBF</string>
+    <string name="menu_links">Links</string>
+
+
+
+
+
+
+
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>
