@@ -7,7 +7,7 @@
 
     <fragment
         android:id="@+id/nav_Home"
-        android:name="com.boxed.irpof.ui.home.HomeFragment"
+        android:name="com.boxed.irpof.tabFragment.home.HomeFragment"
         android:label="@string/menu_home"
         tools:layout="@layout/fragment_home" />
 

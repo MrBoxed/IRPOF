@@ -7,27 +7,111 @@
     <string name="nav_header_desc">Navigation header</string>
     <string name="action_settings">Settings</string>
 
-<!--    MENU ITEMS STRINGS -->
+    <!--    HYPER LINKS -->
+    <string name="eventHyperlink"><a href="https://irpof.vercel.app/#">View Details</a></string>
+
+    <!--    MENU ITEMS STRINGS -->
     <string name="menu_home">Home</string>
     <string name="menu_organisation">Organization</string>
     <string name="menu_dits_panel">DITS/Panel</string>
-
     <string name="menu_IRMS">IRMS</string>
     <string name="menu_Events">Events</string>
     <string name="menu_Seniority">Seniority</string>
-
     <string name="menu_circulars">Circulars</string>
     <string name="menu_news_article">News/Article</string>
     <string name="menu_irpobf">IRPOBF</string>
     <string name="menu_links">Links</string>
 
 
+    <string name="hello_blank_fragment">Hello</string>
+    <string name="app_logo">APP Logo</string>
+    <string name="input_hint_search">Search</string>
+    <string name="contact_us">Contact Us</string>
+
+    <string name="headline">The national single window system has access to over 100 central level approvals and state single window systems of 14 states/uTs with one user Id and password </string>
+
+    <string name="IRPOF_tab_title">Indian Railway Promotee Officers Federation (IRPOF)</string>
+    <string name="IRPOF_tab_paragarph">Indian Railways Promotee Officers Federation (IRPOF) is an organization of Promotee officers having its Head Quarter at New Delhi. It functions through its member associations. Zonal Associations functions through divisional bodies across all the 69 divisions of Indian Railways. The aim of the federation is to safeguard interests of promotee officers and provide better career opportunities and working conditions. It works for development and promoting overall efficiency in the working of Railways in the best interest of common people, the nation and the Railway Men.
+
+        IRPOF Has Launched This Site To Keep Its Member Informed About The, Latest Activities And Share Views On Topics Of Importance. All The Members Are Requested To Kindly Contribute To Make The Site Useful And Meaningful.
+
+</string>
+    <string name="footer_copyright"><![CDATA[Copyright IPORF 2024 Designed By CoreIP & Lens]]></string>
+    <string name="dummyMail">dummy2@gmail.com</string>
+    <string name="dummyUrl">dummy@railways.com</string>
+    <string name="phoneNo">42622924(DoT), 030-22924 030-23140(Rly.)</string>
+    <string name="address">208/A-4, Railway Colony Basant Lane, Pahar Ganj, Delhi- 110 055</string>
+    <string name="IRPOF_Title">Indian Railway Promotee Officers Federation (IRPOF)</string>
+    <string name="irpof_para">Indian Railways Promotee Officers Federation (IRPOF) is an organization of Promotee officers having its Head Quarter at New Delhi. It functions through its member associations. Zonal Associations functions through divisional bodies across all the 69 divisions of Indian Railways. The aim of the federation is to safeguard interests of promotee officers and provide better career opportunities and working conditions. It works for development and promoting overall efficiency in the working of Railways in the best interest of common people, the nation and the Railway Men.</string>
+    <string name="irpof_para_2">IRPOF Has Launched This Site To Keep Its Member Informed About The, Latest Activities And Share Views On Topics Of Importance. All The Members Are Requested To Kindly Contribute To Make The Site Useful And Meaningful.</string>
+    <string name="images_title">Images</string>
+    <string name="images_para">Following are the images from the recent event held on Friday, 19th January regarding ECM/AGM.</string>
+    <string name="recent_events_title">Recent Events</string>
+    <string name="recentEvent_ListItemMainText">Indian Railways Promotee Officers Federation (IRPOF) Is An Organization Of Promotee Officers Having Its Head Quarter At New Delhi.</string>
+    <string name="recentEvent_publishDate">Published On: 10/02/2024</string>
+    <string name="video_title">Video</string>
 
 
+    <string name="constitutionPdfLink">http://res.cloudinary.com/duztqfzdj/image/upload/fl_attachment/v1717578434/yg9q1yycn6h47mf6x60k.pdf</string>
+
+    <!--   STRING ARRAY  BELOW THIS :)-->
+    <string-array name="mainTabItemsName">
+        <item>Home</item>
+        <item>Organization</item>
+        <item>DITS/Panel</item>
+        <item>IRMS</item>
+        <item>Events</item>
+        <item>Seniority</item>
+        <item>Circulars</item>
+        <item>News/Article</item>
+        <item>IRPOBF</item>
+        <item>Links</item>
+    </string-array>
+
+    <!--    Array for homeTablayout -->
+    <string-array name="homeTabString">
+        <item>Who we are: IRPOF</item>
+        <item>Mission &amp; Vision</item>
+        <item>Recent Events</item>
+        <item>Images</item>
+        <item>Videos</item>
+    </string-array>
+
+    <string-array name="organizationTabList">
+        <item>Constitution</item>
+        <item>Executive Body</item>
+        <item>Constituent Units</item>
+        <item>Incumbency Board</item>
+    </string-array>
+
+    <string-array name="ditsPanelTabString">
+        <item>DITS</item>
+        <item>Panel &gt; Group A</item>
+        <item>Panel &gt; JAG</item>
+    </string-array>
+
+    <string-array name="eventsTabString">
+        <item>Board Meeting</item>
+        <item>ECM</item>
+        <item>AGM</item>
+        <item>Emergent Meetings</item>
+    </string-array>
+
+    <string-array name="newsArticleTabString">
+        <item>News</item>
+        <item>Articles</item>
+        <item>Presentation</item>
+        <item>Images</item>
+    </string-array>
 
 
+    <string-array name="IRPOBF_tabString">
+        <item>Active Member List</item>
+        <item>Retd. Member List</item>
+        <item>Deceased Member List</item>
+        <item>Online Membership Form</item>
+        <item>Upgrade Membership</item>
+    </string-array>
 
 
-    <!-- TODO: Remove or change this placeholder text -->
-    <string name="hello_blank_fragment">Hello blank fragment</string>
 </resources>

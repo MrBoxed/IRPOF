@@ -1,26 +1,53 @@
 <?xml version="1.0" encoding="utf-8"?>
-<androidx.drawerlayout.widget.DrawerLayout
+<ScrollView
     xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+
+<LinearLayout
     android:id="@+id/drawer_layout"
     android:layout_width="match_parent"
-    android:layout_height="match_parent"
+    android:layout_height="wrap_content"
     android:fitsSystemWindows="true"
-    tools:openDrawer="start">
+    android:orientation="vertical">
 
     <include
         android:id="@+id/app_bar_main"
         layout="@layout/app_bar_main"
         android:layout_width="match_parent"
-        android:layout_height="match_parent" />
+        android:layout_height="70dp" />
 
-    <com.google.android.material.navigation.NavigationView
-        android:id="@+id/nav_view"
+    <com.google.android.material.tabs.TabLayout
+        android:id="@+id/mainTabLayout"
         android:layout_width="wrap_content"
-        android:layout_height="match_parent"
-        android:layout_gravity="start"
-        android:fitsSystemWindows="true"
-        app:headerLayout="@layout/nav_header_main"
-        app:menu="@menu/activity_main_drawer" />
-</androidx.drawerlayout.widget.DrawerLayout>
+        android:layout_height="wrap_content"
+
+        app:tabBackground="@drawable/main_tablayout_background"
+        app:tabSelectedTextColor="@color/white"
+        app:tabTextColor="@color/black"
+
+        app:tabGravity="fill"
+        app:tabMode="scrollable"
+        android:overScrollMode="never"
+        app:tabIndicatorColor="@color/black"
+        >
+
+
+    </com.google.android.material.tabs.TabLayout>
+
+    <androidx.viewpager2.widget.ViewPager2
+        android:id="@+id/viewPagerMainTab"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <include
+        layout="@layout/footer"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+</LinearLayout>
+
+</ScrollView>

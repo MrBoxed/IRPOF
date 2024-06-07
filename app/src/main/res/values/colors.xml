@@ -8,4 +8,6 @@
     <color name="black">#FF000000</color>
     <color name="white">#FFFFFFFF</color>
     <color name="contactUs_red">#dc2626</color>
+    <color name="headlineBlue">#065CBC</color>
+    <color name="red">#EF3939</color>
 </resources>

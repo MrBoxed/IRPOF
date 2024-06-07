@@ -1,46 +1,57 @@
 <?xml version="1.0" encoding="utf-8"?>
-<androidx.coordinatorlayout.widget.CoordinatorLayout
-    xmlns:android="http://schemas.android.com/apk/res/android"
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".MainActivity">
+    android:orientation="horizontal"
+    tools:context=".activity.main.MainActivity">
 
-    <com.google.android.material.appbar.AppBarLayout
+    <androidx.constraintlayout.widget.ConstraintLayout
         android:layout_width="match_parent"
-        android:layout_height="wrap_content" >
-<!--        android:theme="@style/Theme.IRPOF.AppBarOverlay"-->
+        android:layout_height="match_parent"
+        android:background="@color/white">
 
+        <ImageView
+            android:id="@+id/toolbar_logoImage"
+            android:layout_width="100dp"
+            android:layout_height="match_parent"
+            android:layout_margin="8dp"
+            android:contentDescription="@string/app_logo"
+            android:src="@drawable/logo_new"
+            app:layout_constraintStart_toStartOf="parent"
+            tools:layout_editor_absoluteY="8dp" />
 
-        <androidx.appcompat.widget.Toolbar
-            android:id="@+id/toolbar"
-            android:layout_width="match_parent"
-            android:layout_height="?attr/actionBarSize"
-            android:background="@color/white"
-            app:popupTheme="@style/Theme.IRPOF.PopupOverlay" >
-
-            <ImageView
-                android:layout_width="wrap_content"
-                android:layout_height="match_parent"
-                android:src="@drawable/logo_new"
-                android:contentDescription="APP Logo"
-                />
+        <com.google.android.material.textfield.TextInputLayout
+            android:id="@+id/textInputLayout"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:minWidth="120dp"
+            android:layout_margin="8dp"
+            app:hintTextColor="@color/black"
+            app:boxStrokeColor="@color/black"
+            app:layout_constraintEnd_toStartOf="@+id/BTN_contactUS"
+            style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox">
 
             <com.google.android.material.textfield.TextInputEditText
-                android:layout_width="100dp"
-                android:layout_height="match_parent"/>
-
-            <Button
+                android:id="@+id/toolbar_searchInputText"
                 android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:text="Contact Us"
-                android:background="@color/contactUs_red" />
+                android:layout_height="match_parent"
+                android:hint="@string/input_hint_search" />
 
-        </androidx.appcompat.widget.Toolbar>
+        </com.google.android.material.textfield.TextInputLayout>
 
-    </com.google.android.material.appbar.AppBarLayout>
+        <Button
+            android:id="@+id/BTN_contactUS"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_margin="8dp"
+            android:layout_marginEnd="32dp"
+            android:backgroundTint="@color/contactUs_red"
+            android:text="@string/contact_us"
+            app:layout_constraintEnd_toEndOf="parent"
+            />
 
-    <include layout="@layout/content_main" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
 
-</androidx.coordinatorlayout.widget.CoordinatorLayout>
+</LinearLayout>
